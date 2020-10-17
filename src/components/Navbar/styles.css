@@ -1,0 +1,14 @@
+.navbar {
+  background-color: var(--color-pink);
+  height: 80px;
+  width: 100vw;
+}
+
+.navbar p {
+  text-align: center;
+  color: var(--color-white);
+  font-size: 20px;
+  padding-top: 40px;
+  margin: 0;
+  -webkit-text-stroke: 1px var(--color-white);
+}

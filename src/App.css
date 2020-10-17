@@ -1,5 +1,23 @@
+/* fonts */
+@font-face {
+  font-family: "Skia";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Skia/Skia-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Skia/Skia-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+/* variables */
+:root {
+  --color-pink: #dcb5d3;
+  --color-black: #222222;
+  --color-white: #ffff;
+}
+
+/* Main styles */
 .App {
   text-align: center;
+  font-family: "Skia";
 }
 
 .App-logo {
