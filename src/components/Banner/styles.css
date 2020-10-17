@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 40px 10vw;
+  margin: 40px auto;
+  max-width: 650px;
 }
 
 .banner * {
@@ -16,8 +17,23 @@
   justify-content: space-evenly;
 }
 
+.banner .icons .icon {
+  margin: 0;
+  color: var(--color-black);
+  width: 24px;
+}
+
+.banner .icons a {
+  margin-bottom: 0;
+}
+
 .banner .textblock {
   font-size: 18px;
+}
+
+.banner .textblock a {
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 800px) {
