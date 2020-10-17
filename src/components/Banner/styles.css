@@ -1,0 +1,34 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 10vw;
+}
+
+.banner * {
+  margin: 10px;
+}
+
+.banner .icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.banner .textblock {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .banner .icons {
+    display: flex;
+    flex-direction: row;
+  }
+}
