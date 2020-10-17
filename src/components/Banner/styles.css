@@ -10,6 +10,10 @@
   margin: 10px;
 }
 
+.banner .logo {
+  margin-right: 25px;
+}
+
 .banner .icons {
   display: flex;
   flex-direction: column;

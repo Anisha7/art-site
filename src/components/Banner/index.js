@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Banner = () => {
   return (
     <div className="banner">
-      <img src={logo} alt="Company logo initials AJ" />
+      <img className="logo" src={logo} alt="Company logo initials AJ" />
       <div className="icons">
         {/* fontawesome ig, fb, email, redbubble */}
         <a target="_blank" href="https://www.instagram.com/annnysha7/">
@@ -28,13 +28,13 @@ const Banner = () => {
       <div className="textblock">
         Anisha Jain is an artist. She gives away her art to raise money for
         charities. Each auction is posted on her instagram, facebook, and on
-        this site. Contact her for custom requests and buy her prints on
+        this site. Contact her for custom requests or buy prints
         <span>
           <a
             href="https://www.redbubble.com/people/almondbeans/shop?asc=u"
             target="_blank"
           >
-            redbubble
+            here
           </a>
         </span>
         .
