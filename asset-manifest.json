@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/art-site/static/css/main.972e345c.chunk.css",
-    "main.js": "/art-site/static/js/main.2ebe4b0c.chunk.js",
-    "main.js.map": "/art-site/static/js/main.2ebe4b0c.chunk.js.map",
+    "main.css": "/art-site/static/css/main.1f3077c7.chunk.css",
+    "main.js": "/art-site/static/js/main.f7b5f69a.chunk.js",
+    "main.js.map": "/art-site/static/js/main.f7b5f69a.chunk.js.map",
     "runtime-main.js": "/art-site/static/js/runtime-main.555d0975.js",
     "runtime-main.js.map": "/art-site/static/js/runtime-main.555d0975.js.map",
-    "static/js/2.f815ec44.chunk.js": "/art-site/static/js/2.f815ec44.chunk.js",
-    "static/js/2.f815ec44.chunk.js.map": "/art-site/static/js/2.f815ec44.chunk.js.map",
+    "static/js/2.19dee59e.chunk.js": "/art-site/static/js/2.19dee59e.chunk.js",
+    "static/js/2.19dee59e.chunk.js.map": "/art-site/static/js/2.19dee59e.chunk.js.map",
     "index.html": "/art-site/index.html",
-    "precache-manifest.08269f78f24892d691d2f96f492165c9.js": "/art-site/precache-manifest.08269f78f24892d691d2f96f492165c9.js",
+    "precache-manifest.e4ef18661a41727d17a1ea1706e147a6.js": "/art-site/precache-manifest.e4ef18661a41727d17a1ea1706e147a6.js",
     "service-worker.js": "/art-site/service-worker.js",
-    "static/css/main.972e345c.chunk.css.map": "/art-site/static/css/main.972e345c.chunk.css.map",
-    "static/js/2.f815ec44.chunk.js.LICENSE.txt": "/art-site/static/js/2.f815ec44.chunk.js.LICENSE.txt",
+    "static/css/main.1f3077c7.chunk.css.map": "/art-site/static/css/main.1f3077c7.chunk.css.map",
+    "static/js/2.19dee59e.chunk.js.LICENSE.txt": "/art-site/static/js/2.19dee59e.chunk.js.LICENSE.txt",
     "static/media/App.css": "/art-site/static/media/Skia-Regular.7b2932a4.ttf",
-    "static/media/logo.svg": "/art-site/static/media/logo.5d5d9eef.svg"
+    "static/media/goddessportrait.jpg": "/art-site/static/media/goddessportrait.ffc0ad4b.jpg",
+    "static/media/logo.svg": "/art-site/static/media/logo.5d5d9eef.svg",
+    "static/media/pinkdesigntee.jpg": "/art-site/static/media/pinkdesigntee.0782839b.jpg",
+    "static/media/pinkstatue.jpg": "/art-site/static/media/pinkstatue.daacd8bd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.555d0975.js",
-    "static/js/2.f815ec44.chunk.js",
-    "static/css/main.972e345c.chunk.css",
-    "static/js/main.2ebe4b0c.chunk.js"
+    "static/js/2.19dee59e.chunk.js",
+    "static/css/main.1f3077c7.chunk.css",
+    "static/js/main.f7b5f69a.chunk.js"
   ]
 }
