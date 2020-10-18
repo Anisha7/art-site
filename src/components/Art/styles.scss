@@ -17,14 +17,38 @@
   margin: auto;
   max-width: 800px;
 }
+
+.art-section .art-section-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .art-section .art-section-container:nth-child(even) {
   align-self: flex-end;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.art-section .art-section-container:nth-child(odd) .description {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.art-section .art-section-container:nth-child(even) .description {
+  text-align: right;
 }
 
 @for $i from 1 through 3 {
   .art-section .art-section-container:nth-child(n + #{$i}):not(:first-child) {
     position: relative;
     bottom: 80px * $i;
+  }
+
+  .art-section
+    .art-section-container:nth-child(n + #{$i}):not(:first-child):nth-child(odd)
+    .description {
+    position: relative;
+    top: 50px * $i;
   }
 }
 

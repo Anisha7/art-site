@@ -1,9 +1,6 @@
 import React from "react";
 import "./styles.scss";
-import pinkstatue from "../../images/art/pinkstatue.jpg";
-import goddessportrait from "../../images/art/goddessportrait.jpg";
-import pinkdesigntee from "../../images/art/pinkdesigntee.jpg";
-import humanexperimenttiny from "../../images/art/humanexperimenttiny.jpg";
+import { artdata } from "./data";
 
 const ArtContainer = ({ img, alt, status, price, size, type }) => {
   return (
@@ -26,19 +23,16 @@ const ArtContainer = ({ img, alt, status, price, size, type }) => {
 const Art = () => {
   return (
     <div className="art-section">
-      <ArtContainer img={pinkstatue} alt="Beautiful pink ribbon dancer" />
-      <ArtContainer
-        img={goddessportrait}
-        alt="Beautiful goddess portrait with poem"
-      />
-      <ArtContainer
-        img={pinkdesigntee}
-        alt="Classic white tee with a blond dark skin lady in pink shirt"
-      />
-      <ArtContainer
-        img={humanexperimenttiny}
-        alt="Four small paintings aligned neatly together"
-      />
+      {artdata.map(({ img, alt, status, price, size, type }) => (
+        <ArtContainer
+          img={img}
+          alt={alt}
+          status={status}
+          price={price}
+          size={size}
+          type={type}
+        />
+      ))}
     </div>
   );
 };
