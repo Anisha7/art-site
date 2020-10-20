@@ -29,6 +29,7 @@
   justify-content: flex-end;
 }
 
+// description
 .art-section .art-section-container:nth-child(odd) .description {
   text-align: left;
   margin-left: 40px;
@@ -38,6 +39,26 @@
   text-align: right;
 }
 
+// inner description
+.art-section .art-section-container .description .title {
+  font-size: 22px;
+  -webkit-text-stroke: 1px var(--color-black);
+  margin-bottom: 10px;
+}
+
+.art-section .art-section-container .description .size {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.art-section .art-section-container .description .details {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+// positioning
 @for $i from 1 through 3 {
   .art-section .art-section-container:nth-child(n + #{$i}):not(:first-child) {
     position: relative;
