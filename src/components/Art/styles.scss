@@ -101,4 +101,43 @@
   .art-section .art-section-container {
     margin-bottom: 40px;
   }
+
+  // description
+  .art-section .art-section-container:nth-child(odd) .description {
+    text-align: center;
+    margin-left: 40px;
+  }
+
+  .art-section .art-section-container:nth-child(even) .description {
+    text-align: center;
+  }
+
+  .art-section .art-section-container {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .art-section .art-section-container:nth-child(even) {
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  // positioning
+  @for $i from 1 through 3 {
+    .art-section .art-section-container:nth-child(n + #{$i}):not(:first-child) {
+      bottom: 0;
+      position: unset;
+    }
+
+    .art-section
+      .art-section-container:nth-child(n
+        + #{$i}):not(:first-child):nth-child(odd)
+      .description {
+      bottom: 0;
+      position: unset;
+    }
+  }
 }
