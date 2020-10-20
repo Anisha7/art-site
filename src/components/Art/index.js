@@ -1,8 +1,9 @@
 import React from "react";
 import "./styles.scss";
 import { artdata } from "./data";
+import BuyPrintsButton from "../BuyPrintsButton";
 
-const ArtContainer = ({ img, alt, status, price, size, type }) => {
+const ArtContainer = ({ img, alt, status, price, size, type, src }) => {
   return (
     <div className="art-section-container">
       <div className="art-container">
@@ -15,6 +16,7 @@ const ArtContainer = ({ img, alt, status, price, size, type }) => {
         </p>
         <p className="size">{size}</p>
         <p className="details">{type}</p>
+        {src ? <BuyPrintsButton src={src} /> : null}
       </div>
     </div>
   );
@@ -23,7 +25,7 @@ const ArtContainer = ({ img, alt, status, price, size, type }) => {
 const Art = () => {
   return (
     <div className="art-section">
-      {artdata.map(({ img, alt, status, price, size, type }) => (
+      {artdata.map(({ img, alt, status, price, size, type, src }) => (
         <ArtContainer
           img={img}
           alt={alt}
@@ -31,6 +33,7 @@ const Art = () => {
           price={price}
           size={size}
           type={type}
+          src={src}
         />
       ))}
     </div>

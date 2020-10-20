@@ -1,0 +1,13 @@
+.buy-prints-button {
+  /* border: 2px solid var(--color-pink);
+  font-size: 18px;
+  color: var(--color-pink);
+  -webkit-text-stroke: 1px var(--color-pink);
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px 0; */
+  font-size: 24px;
+  color: var(--color-pink);
+  -webkit-text-stroke: 1px var(--color-pink);
+  text-decoration: underline;
+}

@@ -12,6 +12,8 @@ export const artdata = [
     price: "$110",
     size: "24x30in",
     type: "oil painting",
+    src:
+      "https://www.redbubble.com/i/canvas-print/Ribbon-dance-oil-painting-by-almondbeans/56071310.56DNM",
   },
   {
     img: goddessportrait,
@@ -20,6 +22,8 @@ export const artdata = [
     price: "$100",
     size: "24x30in",
     type: "oil painting",
+    src:
+      "https://www.redbubble.com/i/canvas-print/Goddess-Oil-Painting-by-almondbeans/58662684.56DNM",
   },
   {
     img: pinkdesigntee,
@@ -28,6 +32,7 @@ export const artdata = [
     price: "$400",
     size: "medium t-shirt",
     type: "fabric",
+    src: undefined,
   },
   {
     img: humanexperimenttiny,
@@ -36,5 +41,7 @@ export const artdata = [
     price: "$50/pair",
     size: "4x6in",
     type: "acrylic painting",
+    src:
+      "https://www.redbubble.com/i/sticker/Acrylic-Painting-Enjoying-the-rain-by-almondbeans/60186069.EJUG5",
   },
 ];

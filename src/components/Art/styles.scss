@@ -47,13 +47,13 @@
 }
 
 .art-section .art-section-container .description .size {
-  font-size: 18px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  // margin-top: 5px;
+  // margin-bottom: 20px;
 }
 
 .art-section .art-section-container .description .details {
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 5px;
   margin-bottom: 10px;
 }
@@ -70,6 +70,14 @@
     .description {
     position: relative;
     top: 50px * $i;
+  }
+
+  .art-section
+    .art-section-container:nth-child(n
+      + #{$i}):not(:first-child):nth-child(even)
+    .description {
+    position: relative;
+    bottom: 20px;
   }
 }
 
