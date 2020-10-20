@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fadd9b66a4322d94f7f0246dddc7d02",
+    "revision": "90d6cc77161559978511e8a131fec4b6",
     "url": "/art-site/index.html"
   },
   {
-    "revision": "da1d55c1a4a0c1ec2d83",
-    "url": "/art-site/static/css/main.6cf485d4.chunk.css"
+    "revision": "7a9d9fd684bec056425c",
+    "url": "/art-site/static/css/main.d203ae57.chunk.css"
   },
   {
-    "revision": "83509ea232a9b5bc4aa9",
-    "url": "/art-site/static/js/2.19dee59e.chunk.js"
+    "revision": "bc0980f38601d049bbb9",
+    "url": "/art-site/static/js/2.ac8921ec.chunk.js"
   },
   {
     "revision": "b13e737c23346402089bf79c557ecf58",
-    "url": "/art-site/static/js/2.19dee59e.chunk.js.LICENSE.txt"
+    "url": "/art-site/static/js/2.ac8921ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da1d55c1a4a0c1ec2d83",
-    "url": "/art-site/static/js/main.f7b5f69a.chunk.js"
+    "revision": "7a9d9fd684bec056425c",
+    "url": "/art-site/static/js/main.67617650.chunk.js"
   },
   {
     "revision": "e82f12d866fd9c2209d1",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ffc0ad4b3a103fc90c6c934bfcb1fa5a",
     "url": "/art-site/static/media/goddessportrait.ffc0ad4b.jpg"
+  },
+  {
+    "revision": "55474d88b348b2f5ef5003bca19a3504",
+    "url": "/art-site/static/media/humanexperimenttiny.55474d88.jpg"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
